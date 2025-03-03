@@ -1,4 +1,4 @@
-"""
+
 Stock Time Series Analysis and Prediction - Jupyter Notebook README
 
 This Jupyter Notebook provides a comprehensive analysis and prediction of stock time series data, 
@@ -26,21 +26,26 @@ Notebook Structure:
         -   Loading the dataset using pandas.
         -   Exploring the data structure and initial statistics.
         -   Visualizing stock price trends.
+        
     2.  Data Preprocessing:
         -   Handling missing values.
         -   Feature scaling using MinMaxScaler.
         -   Preparing data for time series analysis.
+        
     3.  Model Building:
         -   Implementation of a Long Short-Term Memory (LSTM) neural network using PyTorch.
         -   Training the LSTM model on the preprocessed data.
+        
     4.  Model Evaluation:
         -   Making predictions on the test set.
         -   Inverse transforming the predictions to the original scale.
         -   Visualizing the predicted vs. actual stock prices.
         -   Evaluation of model loss during training.
+        
     5.  Visualization:
         -   Plotting the training loss over epochs.
         -   Plotting the actual vs. predicted stock prices.
+        
 
 Example Usage:
     -   Load the notebook in Jupyter Notebook or JupyterLab.
@@ -62,4 +67,4 @@ Note:
     -   This notebook focuses on predicting stock prices using LSTM.
     -   The provided visualizations and evaluations give insights into the model's performance.
     -   The model can be further tuned and improved for better accuracy.
-"""
+
