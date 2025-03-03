@@ -22,6 +22,7 @@ Data Columns:
     - Name: Stock ticker symbol
 
 Notebook Structure:
+
     1.  Data Loading and Exploration:
         -   Loading the dataset using pandas.
         -   Exploring the data structure and initial statistics.
